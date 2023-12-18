@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Injury-Alert</title>
+    <link rel="stylesheet" type="text/css" href="./css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;600&family=Poppins:ital,wght@0,600;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><i class="ri-run-fill"></i></i><span>Injury Alert</span></a>
+        <ul class="navbar">
+            <li><a href="#overview" class="menu-option">Overview</a></li>
+            <li><a href="#video" class="menu-option">Video</a></li>
+            <li><a href="#ptype" class="menu-option">Interactive Prototype</a></li>
+            <li><a href="#team" class="menu-option">Team</a></li>
+            <li><a href="#documents" class="menu-option">Documents</a></li>
+          </ul>
+        <div class="main">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <div>
+        <div class="title">
+            <h1>Injury Alert</h1>
+            <p>Sports Specific Injury Prevention</p>
+        </div>
+        <div class="overview" id="overview">
+            <h1>Overview</h1>
+            <p>Problem and solution</p>
+            <div class="ov-content">
+                <h2>Facts about sports injuries</h2>
+                <p>- There is an estimated 3.5 million or more sports related injuries per year in the U.S.</p>
+                <p>- There is no emphasis on educating athletes on injury prevention</p>
+                <p>- Only so much can be done after an injury is sustained</p>
+                <h2>Problem</h2>
+                <p>
+                    Athletes, whether they are professionals, college students, or just everyday individuals, frequently encounter injuries. These can occur during training or competition. 
+                    When an athlete is injured, these injuries demand considerable recovery time and can oftentimes leave athletes unable to perform at the same level they could before being injured.
+                    Common orthopedic medicine focuses primarily on post-injury recovery, and fewer and fewer resources are being devoted to preventing injury for those athletes.
+                </p>
+                <h2>Our Solution</h2>
+                <img src="./pics/overview.png">
+            </div>
+        </div>
+        <div class="video" id="video">
+            <h1>Video Prototype</h1>
+            <p>Walkthrough</p>
+            <iframe src="https://www.youtube.com/embed/2VBf73-_s8Y" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="ptype" id="ptype">
+            <h1>Interactive Prototype</h1>
+            <p>Walkthrough</p>
+            <iframe src="https://injury-alert.github.io/Injury-Alert/sportsPages/football.html"  frameborder="0"></iframe>
+        </div>
+        <div class="team" id="team">
+            <h1>Team</h1>
+            <div class="team-members">
+              <div class="team-member">
+                <img src="./pics/andy.png" width="50%" height=50%>
+                <h3>Andrew Long</h3>
+                <p style="font-weight: bold;">Team Manager, Web Designer</p>
+                <p>Computer & Information Sciences</p>
+                <p>andrewl@udel.edu</p>
+              </div>
+              <div class="team-member">
+                <img src="./pics/dhruv.png" width="50%" height=50%>
+                <h3>Dhruv Patel</h3>
+                <p style="font-weight: bold;">Web Designer</p>
+                <p>Computer & Information Sciences</p>
+                <p>dhp@udel.edu</p>
+              </div>
+              <div class="team-member">
+                <img src="./pics/apan.png" width="50%" height=50%>
+                <h3>SM Enamul Apan</h3>
+                <p style="font-weight: bold;">Designer</p>
+                <p>Computer & Information Sciences</p>
+                <p>smapan@udel.edu</p>
+              </div>
+              <div class="team-member">
+                <img src="./pics/nick.jpg" width="50%" height=50%>
+                <h3>Nicolas Steuernagle</h3>
+                <p style="font-weight: bold;">Designer</p>
+                <p>Computer & Information Sciences</p>
+                <p>nicosteu@udel.edu</p>
+              </div>
+            </div>
+          </div>
+          
+        <div class="documents" id="documents">
+            <h1>Documents</h1>
+            <p>Our work</p>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1IvhDVbq9ipb7VptxbiRocxKgWB6DIqHL/view?usp=drive_link" class="read-more-button">Final Report</a>
+            </div>
+            <div class="document-container">
+                <a href="https://docs.google.com/presentation/d/1hZcTfjF9KaZ9xPZOZ9TT13HwzbRIqEb2qXW-I3GRVuY/edit?usp=sharing" class="read-more-button">Final Presentation</a>
+            </div>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1R98nhylMBxIvE-1je9idjNfQ4KhG4Ch-/view?usp=drive_link" class="read-more-button">Interview Questions and Results</a>
+            </div>
+            <div class="document-container">
+                <a href="https://drive.google.com/file/d/1ERXjznrDaPFqjCUs5H-MgGzcytB3bm0k/view?usp=sharing" class="read-more-button">Survey Questions and Results</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+    </footer>
+    <!--js link-->
+    <script src="./javascript/navbar.js"></script>
+    <script><!-- Smooth scrolling script -->
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+        
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        </script>
+          <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh; /* 100% of the viewport height */
+                margin: 0;
+            }
+    
+            main {
+                flex: 1; /* Takes up remaining vertical space */
+            }
+    
+            footer {
+                text-align: center;
+                padding: 5px;
+                background-color: #f1f1f1;
+            }
+        </style>
+        <title>Injury-Alert</title>
+    </head>
+    <body>
+    
+        <main>
+        </main>
+    
+        <footer>
+            <p>&copy; 2023 Injury-Alert. All rights reserved. | <a href="terms.html">Terms of Service</a> | <a href="privacy.html">Privacy Policy</a></p>
+        </footer>
+</body>
+
+</html>
